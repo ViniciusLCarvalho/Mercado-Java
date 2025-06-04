@@ -18,19 +18,19 @@ public class EstoqueBean {
         categoria = new Categoria();
     }
 
-    public List getListaCategoria() {
+    public List<Categoria> getListaCategoria() {
         return listaCategoria;
     }
 
-    public List getListaProdutos() {
+    public List<Produto> getListaProdutos() {
         return listaProdutos;
     }
 
-    public void setListaCategoria(List listaCategoria) {
+    public void setListaCategoria(List<Categoria> listaCategoria) {
         this.listaCategoria = listaCategoria;
     }
 
-    public void setListaProdutos(List listaProdutos) {
+    public void setListaProdutos(List<Produto> listaProdutos) {
         this.listaProdutos = listaProdutos;
     }
 
