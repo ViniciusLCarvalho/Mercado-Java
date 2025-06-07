@@ -9,9 +9,18 @@ public class CartaoDeCredito implements Pagamento {
     int numeroCvv;
     Date dataValidade;
     String bandeira;
+    int numeroPagamento;
 
     @Override
-    public String processaPagamento(double valor){
-        return msgRetorno = "Iniciando pagamento de :R$ "+ valor + " com o cartão de crédito: " + numeroCartao;
+    public String processaPagamento(double valor) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'processaPagamento'");
     }
+    @Override
+    public String rollbackPagamento(double valor) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'rollbackPagamento'");
+    }
+
+    
 }

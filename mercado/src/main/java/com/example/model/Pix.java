@@ -6,7 +6,14 @@ public class Pix implements Pagamento {
     String nomeTitular;
 
     @Override
-    public String processaPagamento(double valor){
-        return msgRetorno = "Iniciando pagamento de: R$ " + valor + " no PIX!";
+    public String processaPagamento(double valor) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'processaPagamento'");
+    }
+
+    @Override
+    public String rollbackPagamento(double valor) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'rollbackPagamento'");
     }
 }
